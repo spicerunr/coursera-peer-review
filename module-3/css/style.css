@@ -1,11 +1,20 @@
 *{
     box-sizing:border-box;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 50px;
-    text-align: center;
+    font-size: 3em;
+}
+
+#menu-color{
+    background-color: rgb(58, 197, 121);
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto rgb(58, 197, 121);
 }
 
 a.navbar-brand{
@@ -30,8 +39,4 @@ a.navbar-brand{
 .color_me_pink{
 
     background-color: thistle;
-}
-
-.float_right{
-float:right;
 }

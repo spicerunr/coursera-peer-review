@@ -25,4 +25,4 @@ helloSpeaker.speak = function speak(name) {
  
 window.helloSpeaker = helloSpeaker;
 
-}) (window)
+}) (window);
